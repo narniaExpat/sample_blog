@@ -21,9 +21,7 @@ This is a POC application for displaying blog posts. It does not currently conne
 
 ### Requirements
 
-The requirements for the final application are given below.
-
-For these requirements, can you find an example of where the requirement has been met, and an example of where it hasn't?
+The requirements for the final application are given below. For each one, can you find an example of where the requirement has been met, and an example of where it hasn't?
 
 -   The app, currently in English only, should be capable of supporting additional languages.
 -   Basic accessiblity standards should be met.
