@@ -24,18 +24,18 @@ This is a POC application for displaying blog posts. It does not currently conne
 The requirements for the final application are given below. For each one, can you find an example of where the requirement has been met, and an example of where it hasn't?
 
 -   The app, currently in English only, should be capable of supporting additional languages.
--   Basic accessiblity standards should be met.
+-   Basic accessibility standards should be met.
 -   Typescript should be used to ensure data integrity
 
 ### Additionally
 
--   The app will connect to an api to get the posts, and like it does now it will poll regulary to ensure it has the latest posts. How should the data be managed once this is in place?
+-   The app will connect to an api to get the posts, and like it does now it will poll regularly to ensure it has the latest posts. How should the data be managed once this is in place?
 
--   Once the authenication service is in place, it is expected that the signedIn variable will be used in many places across the application. Can you think of an alternative from having to pass it down the component tree wherever it needs to be used?
+-   Once the authentication service is in place, it is expected that the signedIn variable will be used in many places across the application. Can you think of an alternative from having to pass it down the component tree wherever it needs to be used?
 
 ### Troubleshooting
 
-The app does not meet the organisation's non-functional specification for performance. There is an excessive number of re-rerenders. The function to sort the posts is potentially very expensive for a large number of posts, and it is running more frequently than it needs to. There is also something wrong with how the list behaves when the d
+The app does not meet the organisation's non-functional specification for performance. There is an excessive number of re-renders. The function to sort the posts is potentially very expensive for a large number of posts, and it is running more frequently than it needs to.
 
 How would you fix these problems?
 
