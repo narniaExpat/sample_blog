@@ -1,4 +1,4 @@
-# Flagstone Front End Interview Practical Excercise
+# Sample Blog
 
 ## Project Setup
 
