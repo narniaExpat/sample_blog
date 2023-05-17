@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": false,
+        "module": "esnext",
+        "target": "es5",
+        "jsx": "react",
+        "sourceMap": true,
+        "lib": ["esnext", "dom.iterable", "dom"],
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Node",
+        "isolatedModules": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "baseUrl": "./",
+        "paths": {
+            "content": ["./src/content/index"],
+            "data/*": ["./src/data/*"],
+            "fetch/*": ["./src/fetch/*"],
+            "molecules/*": ["./src/components/Molecules/*"],
+            "utils/*": ["./src/utils/*"]
+        },
+        "types": ["node", "jest"]
+    },
+    "includes": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
