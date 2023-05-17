@@ -35,7 +35,7 @@ The requirements for the final application are given below. For each one, can yo
 
 ### Troubleshooting
 
-The app does not meet the organisation's non-functional specification for performance. There is an excessive number of re-renders. The function to sort the posts is potentially very expensive for a large number of posts, and it is running more frequently than it needs to.
+The app does not meet the organisation's non-functional specification for performance. There is an excessive number of re-renders. The function to sort the posts is potentially very expensive for a large number of posts, and it is running more frequently than it needs to. To help you identify componets being re-renderd and functions being called, some logging has been added to the application. To see this, look in the developer console whilst the application is running.
 
 How would you fix these problems?
 
