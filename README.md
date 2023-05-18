@@ -19,6 +19,8 @@ This is a POC application for displaying blog posts. It does not currently conne
 -   How the build / typescript / prettier is configured
 -   User authentication: assume that this is yet to be connected up to an auth service, so for now we assume user is signed in
 
+You should focus your attention on `<App />` and it's desecendents.
+
 ### Requirements
 
 The requirements for the final application are given below. For each one, can you find an example of where the requirement has been met, and an example of where it hasn't?
