@@ -4,14 +4,14 @@ import Container from './Layout/Container';
 import Nav from './Nav';
 
 type Props = {
-    signOutFn: () => void;
+    signInToggle: () => void;
 };
 
-const Page = ({ children, signOutFn }: PropsWithChildren<Props>) => (
+const Page = ({ children, signInToggle }: PropsWithChildren<Props>) => (
     <>
         <GlobalStyle />
         <main>
-            <Nav signOutFn={signOutFn} />
+            <Nav signInToggle={signInToggle} />
             <Container>{children}</Container>
         </main>
     </>

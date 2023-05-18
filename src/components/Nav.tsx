@@ -4,14 +4,14 @@ import Button from 'molecules/Button';
 import Navbar from 'molecules/NavBar';
 
 type Props = {
-    signOutFn: () => void;
+    signInToggle: () => void;
 };
 
-const Nav = ({ signOutFn }: Props) => {
+const Nav = ({ signInToggle }: Props) => {
     const { t } = useTranslation();
     return (
         <Navbar>
-            <Button variant="danger" onClick={signOutFn}>
+            <Button variant="danger" onClick={signInToggle}>
                 {t('common:signOut')}
             </Button>
         </Navbar>

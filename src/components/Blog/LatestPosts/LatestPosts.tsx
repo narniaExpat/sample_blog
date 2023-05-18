@@ -27,7 +27,7 @@ const LatestPosts = () => {
         return () => clearInterval(id);
     }, []);
 
-    console.log('Latest Posts component');
+    console.log('Rendering Latest Posts component');
 
     return (
         <Box className="my-1 p-2 box">

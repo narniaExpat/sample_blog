@@ -24,4 +24,4 @@ const UserPostsList = ({ userPosts, deletePost }: Props) => {
     );
 };
 
-export default UserPostsList;
+export default React.memo(UserPostsList);

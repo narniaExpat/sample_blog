@@ -4,10 +4,10 @@ import Blog from './components/Blog';
 
 const App = () => {
     const [signedIn, setSignedIn] = useState(true);
-    const signOut = () => setSignedIn(!signedIn);
+    const signInToggle = () => setSignedIn(!signedIn);
 
     return (
-        <Page signOutFn={signOut}>
+        <Page signInToggle={signInToggle}>
             <Blog signedIn={signedIn} />
         </Page>
     );
