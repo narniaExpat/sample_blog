@@ -12,8 +12,8 @@ const UserPostsList = ({ userPosts, deletePost }: Props) => {
 
     return (
         <div className="px-1">
-            {userPosts.map((post, index) => (
-                <div key={index} className="my-1 box flex-row">
+            {userPosts.map((post) => (
+                <div className="my-1 box flex-row">
                     <UserPost post={post} />
                     <Button variant="danger" data-post-id={post.id} onClick={deletePost}>
                         Delete
