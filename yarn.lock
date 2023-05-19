@@ -3589,11 +3589,6 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==
 
-deep-computed@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/deep-computed/-/deep-computed-0.2.0.tgz#493170520e96fc7a971b36289744d3646c00d573"
-  integrity sha512-KLnX3qEoMZP+McYQSEfvLyHCkzuISoDG6zznkJcwVqLqTG3u0K3hJnfqp9WYSRYJxDEx3gs47XJVwDu8QwjGRQ==
-
 deep-is@~0.1.3:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
@@ -4056,16 +4051,6 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-flag@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/flag/-/flag-4.4.0.tgz#03e4fc623348c4edf5db20c491b37e09fed0e125"
-  integrity sha512-dDqpnanBhtjcD+BLkYy4KDuv98MpIj1nU2CYHhh1c2FMRbiG3rqI7vfKE0jyJVsuN1HcduhwRhaqEgJjhvZvDw==
-  dependencies:
-    deep-computed "^0.2.0"
-    invariant "^2.2.4"
-    lodash "^4.17.11"
-    useful-types "^0.4.0"
-
 follow-redirects@^1.0.0, follow-redirects@^1.15.0:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
@@ -4471,7 +4456,7 @@ interpret@^3.1.1:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-3.1.1.tgz#5be0ceed67ca79c6c4bc5cf0d7ee843dcea110c4"
   integrity sha512-6xwYfHbajpoF0xLW+iwLkhwgvLoZDfjYfoFNu8ftMoXINzwuymNLd9u/KmwtdT2GbR+/Cz66otEGEVVUHX9QLQ==
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.2:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5171,7 +5156,7 @@ lodash.memoize@4.x:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==
 
-lodash@^4.17.11, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4:
+lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -6734,11 +6719,6 @@ url-parse@^1.5.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
-
-useful-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/useful-types/-/useful-types-0.4.0.tgz#b858dd3705013050e411b9ac431659227d207cef"
-  integrity sha512-ugsfWi6blP6Strp00QOsNmGa7xiNFKJMp+1hbyoD3TA+QS3lbDdeeqE6oFYaVUFaVsQukxyWB1574NcKqrnUsQ==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
