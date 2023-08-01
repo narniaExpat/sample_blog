@@ -6,8 +6,8 @@ In order to get everything up and running, please follow these steps:
 
 1. Clone this repo.
 2. Navigate to the cloned folder and open it in your code editor.
-3. Run `yarn install` or `npm install` to install all npm packages.
-4. Run `yarn start` or `npm install` to start the server.
+3. Run `yarn` or `npm install` to install all npm packages.
+4. Run `yarn start` or `npm ` to start the server.
 5. Open Google Chrome and navigate to `http://localhost:3000`.
 
 ## The task
